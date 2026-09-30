@@ -7,7 +7,7 @@ public class PositiveOrNegative {
 		int num = -100000;
 		if(num != 0 && num > 0)
 			System.out.println("The number is POSITIVE");
-		else if(num != 0)
+		else if(num < 0)
 			System.out.println("The number is NEGATIVE");
 		else
 			System.out.println("You have entered 0");
